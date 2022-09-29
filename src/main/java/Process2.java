@@ -37,7 +37,7 @@ public class Process2 extends HttpServlet {
 			
 			else {
 				    out.println("<center><h1><b>You have entered incoorect information </b></h1></center>");
-				    RequestDispatcher rd=request.getRequestDispatcher("Login.html");
+				    RequestDispatcher rd=request.getRequestDispatcher("index.html");
 				    rd.include(request, response);    
 			}
 		} catch (Exception e) {
